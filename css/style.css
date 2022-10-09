@@ -1,0 +1,15 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: aquamarine;
+}
+.registration_body_color {
+  background-color: white;
+}
+
+.submit-bg {
+  background-color: aquamarine !important;
+}
+.no-border-radius {
+  border-radius: 0px !important;
+}

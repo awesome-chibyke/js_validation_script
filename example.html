@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Validation Exampl</title>
+  </head>
+  <body>
+    <div class="container-fluid" style="margin-top: 110px">
+      <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+          <div class="registration_body_color pt-5 pb-5">
+            <div class="row">
+              <div class="col-sm-12">
+                <h3 class="text-primary text-center">Registration Form</h3>
+              </div>
+            </div>
+
+            <div class="row mt-2">
+              <div class="col-sm-2 col-1"></div>
+              <div class="col-sm-8 col-10">
+                <div class="row">
+                  <div class="col-sm-12 form-group mt-3">
+                    <label for="name">Full Name</label>
+                    <input
+                      class="form-control form-control-lg no-border-radius"
+                      id="name"
+                    />
+                    <div class="err_name text-danger"></div>
+                  </div>
+                  <div class="col-sm-6 form-group mt-3">
+                    <label for="email">Email Address</label>
+                    <input
+                      class="form-control form-control-lg no-border-radius"
+                      id="email"
+                    />
+                    <div class="err_email text-danger"></div>
+                  </div>
+                  <div class="col-sm-6 form-group mt-3">
+                    <label for="phone">Phone Number</label>
+                    <input
+                      class="form-control form-control-lg no-border-radius"
+                      id="phone"
+                    />
+                    <div class="err_phone text-danger"></div>
+                  </div>
+                  <div class="col-sm-6 form-group mt-3">
+                    <label for="password">Password</label>
+                    <input
+                      class="form-control form-control-lg no-border-radius"
+                      id="password"
+                    />
+                    <div class="err_password text-danger"></div>
+                  </div>
+                  <div class="col-sm-6 form-group mt-3">
+                    <label for="confrim_password">Confirm Password</label>
+                    <input
+                      class="form-control form-control-lg no-border-radius"
+                      id="confrim_password"
+                    />
+                    <div class="err_confrim_password text-danger"></div>
+                  </div>
+                  <div class="col-sm-12 form-group mt-3">
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-lg"
+                      id="form_submit_button"
+                      style="width: 100%"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/validator.js"></script>
+  <script src="js/example_js.js"></script>
+</html>
